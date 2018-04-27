@@ -3607,6 +3607,10 @@ ol li {
     display: none;
 }
 
+.display-on {
+    display: block;
+}
+
 .bottom_header .main_menu>ul>li>span>ul>li ul {
     padding-top: 50px;
 }
@@ -3629,6 +3633,7 @@ ol li {
 }
 
 .categories {
+    
 }
 
 .wholesale a, .list li.block-item {

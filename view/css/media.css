@@ -379,7 +379,7 @@
 	.order_content table tr.category_fild td a:hover{
 		display: none;
 	}
-	.info_order ._l_info,
+	.info_order .main_info,
 	.info_order .user_info{
 		width: 50%;
 	}
