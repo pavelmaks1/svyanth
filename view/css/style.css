@@ -3624,19 +3624,18 @@ ol li {
 }
 
 .category-list ul li {
-    display: inline-block
+    display: inline-block;
+    max-width: 9%;
 }
+
 
 .bottom_header .main_menu>ul>li>span>ul>li.category-list>ul li img {
     margin: 1rem;
     display: block;
 }
 
-.categories {
-    
-}
+.categories {}
 
 .wholesale a, .list li.block-item {
     text-align: center;
 }
-
