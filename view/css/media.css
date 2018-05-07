@@ -457,6 +457,10 @@
 	.size_pab img {
 		max-width: 100%;
 	}
+	.desktop {
+		visibility: hidden;
+		display: none;
+	}
 }
 
 @media (max-width: 700px) {
@@ -750,15 +754,8 @@
 	}
 }
 
-@media (min-width: 1200px){
+@media screen and (min-width: 990px) {
 	.mobile {
-		visibility: hidden;
-		display: none;
-	}
-}
-
-@media (max-width: 480px) {
-	.desktop {
 		visibility: hidden;
 		display: none;
 	}
