@@ -204,11 +204,11 @@ p a:hover {
     background: transparent url("../images/css/home_link.png") no-repeat scroll 0 center;
     width: 21px;
 }
-
+/* /////////////// */
 .bottom_header .main_menu ul li.wholesale:hover span {
-    display: block;
+    /* display: block; */
 }
-
+/* ///////////////// */
 .bottom_header .main_menu ul li ul li a:hover {
     color: #770004;
 }
@@ -3608,7 +3608,7 @@ ol li {
 }
 
 .display-on {
-    display: block;
+    display: inline-block;
 }
 
 .bottom_header .main_menu>ul>li>span>ul>li ul {
@@ -3634,8 +3634,16 @@ ol li {
     display: block;
 }
 
-.categories {}
+.category {
+    display: inline-block;
+}
 
-.wholesale a, .list li.block-item {
-    text-align: center;
+
+.menu-item {
+    text-align: left;
+}
+
+.block_mobile {
+    overflow: hidden;
+    opacity: 0;
 }
