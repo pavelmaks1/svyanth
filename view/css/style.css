@@ -175,15 +175,15 @@ p a:hover {
 .bottom_header .main_menu ul li {
     list-style: none;
 }
-
+/* //////////// */
 .bottom_header .main_menu>ul>li>a {
     color: #000;
-    display: table-cell;
+    /* display: table-cell; */
     font: bold 14px GravityBook;
     vertical-align: middle;
     position: relative;
 }
-
+/* ////////////// */
 .bottom_header .main_menu>ul>li>a:after {
     background: #770004 none repeat scroll 0 0;
     bottom: 0;
@@ -3646,4 +3646,8 @@ ol li {
 .block_mobile {
     overflow: hidden;
     opacity: 0;
+}
+
+.text-center {
+    text-align: center;
 }
