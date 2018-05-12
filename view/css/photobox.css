@@ -1,4 +1,4 @@
-/* Normilizes box-sizing  */
+Normilizes box-sizing 
 #pbOverlay *,
 #pbOverlay *:before,
 #pbOverlay *:after {
@@ -87,17 +87,17 @@
 
 
 /*-- close button --*/
-#pbCloseBtn,
+/* #pbCloseBtn,
 #pbAutoplayBtn{ position:absolute; top:-50px; right:-50px; z-index:999; display:block; padding:0 0 20px 20px; text-align:center; cursor:pointer; color:#FFF; transition:.3s .3s ease-out; }
 .pbHide #pbCloseBtn{ top:-50px; right:-50px; }
 .on #pbCloseBtn{ top:-2px; right:-2px; }
 
 #pbCloseBtn:before{ content:'\00D7'; font:bold 1em/1 arial; }
 #pbCloseBtn:before, #pbAutoplayBtn:before{ display:inline-block; height:35px; width:35px; padding:8px 8px 12px 12px; font-size:2em; opacity:.8; vertical-align:middle; background:rgba(255,255,255,.2); border-radius:0 0 0 70px; transition:.1s ease-out; }
-#pbCloseBtn:hover:before{ padding:15px 10px 24px 24px; background:rgba(255,100,100,.4); }
+#pbCloseBtn:hover:before{ padding:15px 10px 24px 24px; background:rgba(255,100,100,.4); } */
 
 /*-- autoplay controller --*/
-#pbAutoplayBtn{ display:none; right:auto; left:-50px; padding:0; width:50px; height:50px; font-size:13px; }
+/* #pbAutoplayBtn{ display:none; right:auto; left:-50px; padding:0; width:50px; height:50px; font-size:13px; }
 .hasAutoplay #pbAutoplayBtn{ display:block; }
 #pbAutoplayBtn:hover{ width:60px; height:60px; }
 .on #pbAutoplayBtn{ top:0px; left:0px; transition:.1s ease-out; }
@@ -125,10 +125,10 @@
 	.pbCaptionText.change{ -webkit-transform:translateY(25px); transform:translateY(25px); opacity:0; }
 
 .mobile #pbCaption label{ display:none; z-index:-1; color:red; }
-.mobile .pbCaptionText{ padding:0; }
+.mobile .pbCaptionText{ padding:0; } */
 
 /* hide thumbnails */
-#pbThumbsToggler:checked ~ #pbCaption .pbThumbs{ margin:0; }
+/* #pbThumbsToggler:checked ~ #pbCaption .pbThumbs{ margin:0; }
 #pbThumbsToggler:checked ~ .pbWrapper{ margin-top:-50px; padding:50px 0; }
 
 .pbThumbs{ display:none; transition:.35s; -webkit-overflow-scrolling:touch; }
@@ -169,7 +169,7 @@
 
 .show #pbPrevBtn, #pbOverlay.show #pbNextBtn{  }
 .show #pbPrevBtn{ left:0; text-align:left; }
-.show #pbNextBtn{ right:0; text-align:right; }
+.show #pbNextBtn{ right:0; text-align:right; } */
 
 /*------- media queries (for small screens) -----------*/
 @media all and (max-width:700px){
