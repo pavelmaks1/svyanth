@@ -3690,6 +3690,7 @@ ol li {
 }
 
 .category {
+  vertical-align: middle;
   padding: 10px 0;
   text-align: left;
   width: 17%;
