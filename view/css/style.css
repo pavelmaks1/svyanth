@@ -3639,6 +3639,10 @@ ol li {
   align-items: center;
 }
 
+.block-item {
+  margin: 5px 0;
+}
+
 .block-menu li {
   flex: 1;
 }
