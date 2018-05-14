@@ -291,14 +291,16 @@
     z-index: 100;
   }
   /* .................... */
+  /* ......................... */
   .bottom_header .main_menu ul li {
-    float: left;
+    /* float: left; */
     height: auto;
     margin-bottom: 6px;
     margin-right: 0;
     text-align: center;
     width: 100%;
   }
+  /* ........................... */
   .bottom_header .main_menu ul li a {
     color: #fff;
     font-size: 14px;
@@ -758,6 +760,18 @@
 /* ....................... */
 
 @media screen and (min-width: 990px) {
+  .item-list {
+    position: absolute;
+    left: 0;
+  }
+  .item-item {
+    max-width: 9%;
+  }
+  .menu_conteiner {
+    left: 0;
+    position: absolute;
+    top: 56px;
+  }
   .category-item:hover .item-list, .category-item:active .item-list {
     display: block;
   }
@@ -766,6 +780,10 @@
   }
   .bottom_header .main_menu ul li.wholesale:hover span {
     display: block;
+  }
+  .bottom_header .main_menu>ul>li {
+    display: table;
+    float: left;
   }
 }
 
