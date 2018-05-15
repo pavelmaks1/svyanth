@@ -63,9 +63,11 @@
   .our_score .content_score .row {
     margin-right: 17px;
   }
+  /* ................. */
   .bottom_header .main_menu>ul>li>span>ul>li {
-    width: 210px;
+    /* width: 210px; */
   }
+  /* .................... */
   .info_order .main_info {
     width: 265px;
   }
@@ -122,10 +124,12 @@
   .bottom_header .main_menu li a:hover img {
     display: none;
   }
+  /* .................. */
   .bottom_header .main_menu>ul>li>span>ul>li {
     padding-right: 10px;
-    width: 192px;
+    /* width: 192px; */
   }
+  /* ......................  */
   .bottom_header .main_menu ul li {
     margin-right: 13px;
   }
@@ -284,13 +288,15 @@
     display: none;
     background: #770004 none repeat scroll 0 0;
     left: 0;
-    padding: 10px 10px 4px;
     position: absolute;
     top: 46px;
     width: 100%;
     z-index: 100;
   }
   /* .................... */
+  .item-list-link {
+    text-align: left;
+  }
   /* ......................... */
   .bottom_header .main_menu ul li {
     /* float: left; */
@@ -301,11 +307,18 @@
     width: 100%;
   }
   /* ........................... */
+  /* ............................... */
   .bottom_header .main_menu ul li a {
     color: #fff;
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
   }
+  /* ....................... */
+  /* ............................. */
+  .grey-bg {
+    /* background: #f4f4f4; */
+  }
+  /* ....................... */
   .bottom_header .main_menu ul li a br {
     display: none;
   }
@@ -772,6 +785,9 @@
     position: absolute;
     top: 56px;
   }
+  .menu-categories {
+    padding: 10px 0;
+  }
   .category-item:hover .item-list, .category-item:active .item-list {
     display: block;
   }
@@ -784,6 +800,12 @@
   .bottom_header .main_menu>ul>li {
     display: table;
     float: left;
+  }
+  .bottom_header .main_menu>ul>li>span>ul>li {
+    width: 210px;
+  }
+  .bottom_header .main_menu>ul>li>a {
+    display: table-cell;
   }
 }
 

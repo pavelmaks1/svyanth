@@ -184,7 +184,7 @@ p a:hover {
 }
 .bottom_header .main_menu > ul > li > a{
     color: #000;
-    display: table-cell;
+    /* display: table-cell; */
     font: bold 14px GravityBook;
     vertical-align: middle;
 	position: relative;
@@ -3125,7 +3125,8 @@ ol li {
 /* /////////// */
 .item-item {
   text-align: center;
-  max-width: 30%;
+  max-width: 25%;
+  display: inline-block;
 }
 
 .display {
@@ -3141,16 +3142,18 @@ ol li {
 }
 
 
-.item-item {
-  display: inline;
-  float: left;
-
-}
-
 .main-list {
   padding: 0 15px ;
+  background: #f4f4f4;
 }
 
 .item-img {
-  width: 120px;
+  width: 6em;
+}
+
+.cat {
+}
+
+.category-item {
+  background: white;
 }
